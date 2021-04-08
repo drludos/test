@@ -1,0 +1,3 @@
+# Ignore the bat "make" commands
+*.bat
+
