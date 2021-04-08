@@ -1,4 +1,4 @@
-import pygame
+import pygame, sys
 from pygame.locals import *
 
 
@@ -6,7 +6,7 @@ from pygame.locals import *
 pygame.init()
 
 #Set up the window
-windowSurface = pygame.display.set_mode((500, 400), 0 , 32)
+windowSurface = pygame.display.set_mode((360, 240), 0 , 32)
 pygame.display.set_caption('Hello World')
 
 #Set up fonts
