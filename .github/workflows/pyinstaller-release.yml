@@ -36,14 +36,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: macos-latest
-            TARGET: macos
-            CMD_BUILD: >
-                pyinstaller -F -w -n test -i test.py &&
-                cd dist/ &&
-                zip -r9 test test.app/
-            OUT_FILE_NAME: test.zip
-            ASSET_MIME: application/zip
           - os: windows-latest
             TARGET: windows
             CMD_BUILD: pyinstaller -F -w -n test -i test.py
