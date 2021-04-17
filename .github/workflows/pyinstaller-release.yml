@@ -41,7 +41,7 @@ jobs:
             CMD_BUILD: pyinstaller -F -n test main.py
             OUT_FILE_NAME: test.exe
             ASSET_MIME: application/vnd.microsoft.portable-executable
-	- os: macos-latest
+          - os: macos-latest
             TARGET: macos
             CMD_BUILD: >
                 pyinstaller -F -w -n test main.py &&
