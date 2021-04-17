@@ -13,7 +13,7 @@ pygame.display.set_caption('Hello World')
 basicFont = pygame.font.SysFont(None, 48)
 
 #Set up the text
-text = basicFont.render('HELLO WORLD', True, (200,200,200))
+text = basicFont.render('HELLO WORLD!!', True, (200,200,200))
 textRect = text.get_rect()
 textRect.centerx = windowSurface.get_rect().centerx
 textRect.centery = windowSurface.get_rect().centery
