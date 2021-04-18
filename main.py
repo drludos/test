@@ -10,7 +10,7 @@ windowSurface = pygame.display.set_mode((360, 240), 0 , 32)
 pygame.display.set_caption('Hello World')
 
 #Set up fonts
-basicFont = pygame.font.SysFont(None, 48)
+basicFont = pygame.font.SysFont("Sans", 48)
 
 #Set up the text
 text = basicFont.render('HELLO WORLD!!', True, (200,200,200))
